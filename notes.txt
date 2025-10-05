@@ -1,1 +1,10 @@
+Git;
+git is the open source distributed version control.
+it allows the multiple developers to access and manipulate the project simultaneously.
+it is the tool to track the changes in the source code during the software development.
+it maintains the complete histroy of changes, allows the developers to revert the previous version and compare the changes.
+
+GitHub:
+it is the cloud based platform hosting the git repository.
+it provide web based interface and enhance feature like collaboration and project management.
 
