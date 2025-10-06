@@ -8,4 +8,15 @@ GitHub:
 it is the cloud based platform hosting the git repository.
 it provide web based interface and enhance feature like collaboration and project management.
 
+Sample add file from local to git repo:
+>first we create the new repo. in the github
+>we see the code option in the created repo. it contains https link.
+>open code editor terminal use command git clone <link> 
+>now your repo. is cloned in local machine. It has two folder one is git folder and another one is working folder. we can modify only in working folder.
+>create a new file in it after that we see 'U' symbol in that file it means the file is untracking. 
+>we change the directory by using cd directoryName.
+>git add fileName ->it add the particular file into the staging area. or git add . this command add the entire folder changes into the staging area.
+>git commit -m "give message" -> this command commit file into the git folder. This command save the file in working folder but cannot the push into git repo.
+>git commit push origin main  -> this command push the file into the git repo. origin is the link we provided in first. and main represent the branch.
+now you see the added file in the github repo.
 
