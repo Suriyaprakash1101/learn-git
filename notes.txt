@@ -20,3 +20,18 @@ Sample add file from local to git repo:
 >git commit push origin main  -> this command push the file into the git repo. origin is the link we provided in first. and main represent the branch.
 now you see the added file in the github repo.
 
+sample get changes from the remote repo.
+>git pull origin -> by using this command, local file is modify based on the changes occured remote file.
+>git pull origin main -> this command, local file is modify based on the changes occured remote file in a particular branch.
+
+sample: we create the folder and file in local machine we see about how to add this to the remote repo.
+>first we create the folder and file in the local machine.
+>The folder in the local machine does not contains the git hub folder inside it.
+>so we use git init command to initilize the git folder inside the created folder.
+>now git folder present in the created folder.
+>git add . -> by using this command, we add the group of file inside the created folder into the staging area.
+>git commit -m "change committed" ->we commit the file into the github folder in the local machine.
+>now we change the origin of the repo. because we create new repo manually in the github and we want to add created folder into it
+>git remote origin add <Link>
+>now check the branch using git branch command it gives output as master. so we change master branch to the main branch using git branch -M main command. now change branch into main.
+now we push the file using git push origin main command and we see the changes in it.
