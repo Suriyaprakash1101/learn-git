@@ -35,3 +35,8 @@ sample: we create the folder and file in local machine we see about how to add t
 >git remote origin add <Link>
 >now check the branch using git branch command it gives output as master. so we change master branch to the main branch using git branch -M main command. now change branch into main.
 now we push the file using git push origin main command and we see the changes in it.
+
+
+> git branch branch_name  ->new brnach creation
+>git branch ->check we are in which branch
+>git checkout branch_name  ->swtich to branch_name(another branch)
