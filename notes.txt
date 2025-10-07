@@ -41,3 +41,9 @@ now we push the file using git push origin main command and we see the changes i
 >git branch ->check we are in which branch
 >git checkout branch_name  ->swtich to branch_name(another branch)
 >git branch -a ->list of branch
+
+>In the github, pull request option is available, when we are working in the real world project we don't have the access in main branch, 
+at this time we send pull request to project manager or team lead to merge our branch with 
+the main branch. we will confirm wheather the branch is merge or not.
+
+
