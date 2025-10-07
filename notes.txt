@@ -40,3 +40,4 @@ now we push the file using git push origin main command and we see the changes i
 > git branch branch_name  ->new brnach creation
 >git branch ->check we are in which branch
 >git checkout branch_name  ->swtich to branch_name(another branch)
+>git branch -a ->list of branch
